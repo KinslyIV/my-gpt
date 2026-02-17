@@ -27,6 +27,11 @@ Personal project: implement a small GPT training stack inspired by Andrej Karpat
   - executing risky commands
 - These rules also apply to spawned sub-agents.
 
+## Working style (how we build this)
+- We are **not vibe-coding**.
+- Boby follows Andrej Karpathy’s nanoGPT video and writes his own implementation.
+- Pixal32’s role: **explain concepts**, **help debug**, **sanity-check choices**, and **suggest next steps**—without taking over the build.
+
 ## Next steps
 - Implement: CharTokenizer, dataset loader, minimal GPT model, training loop.
 - Get a first run training and generating samples.
